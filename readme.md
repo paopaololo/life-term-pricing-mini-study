@@ -161,23 +161,3 @@ Mortality assumptions were manually extracted from the **Society of Actuaries St
 
 Only a limited age range was used because this is a small educational model.
 
----
-
-## Interview notes to remember
-If I need to explain this project in an interview, the main points are:
-
-- This is a **10-year term life pricing model**
-- It estimates the **net single premium**
-- It uses **SOA mortality assumptions**
-- The premium is the **expected present value of death benefits**
-- Each year's contribution reflects:
-  - survival to that year
-  - death in that year
-  - discounting back to time 0
-- Premium rises with age because mortality rises
-- Premium falls with higher interest rates because discounting is stronger
-
----
-
-## Why I built it
-I built this project as a small life actuarial portfolio sample and as a way to practice the core logic behind mortality-based pricing in Excel.
